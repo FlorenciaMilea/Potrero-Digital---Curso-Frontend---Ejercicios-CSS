@@ -1,0 +1,21 @@
+p {
+font-size: 16px;
+}
+
+.rojaz {
+background-color: blue;
+color: red;
+}
+
+.verde {
+color: rgb(32, 212, 71);
+}
+
+.helv {
+font-family: helvetica: ;
+}
+
+
+#italica {
+font-style: italic;
+}

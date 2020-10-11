@@ -1,0 +1,47 @@
+* {
+font-family:  "Open Sans", sans-serif;
+display: flex;
+}
+title {
+  display: none;
+}
+.content {
+  display: flex;
+flex-direction: column;
+}
+
+.header {
+  font-size: 25px;
+}
+
+.main {
+  color: grey;
+}
+
+.texto {
+flex-direction: column;
+text-align: left;
+line-height : 25px;
+}
+
+
+.parrafo1 {
+  font-style: italic;
+  font-size: 18px;
+
+}
+.parrafo2 {
+  font-size: 15px;
+
+}
+
+.img {
+align-items: flex-end;
+margin: 20px
+}
+
+.footer {
+  color: grey;
+  font-size: 13px;
+
+}

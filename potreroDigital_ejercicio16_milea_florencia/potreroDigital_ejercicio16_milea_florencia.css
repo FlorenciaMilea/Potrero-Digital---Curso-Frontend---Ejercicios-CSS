@@ -1,0 +1,108 @@
+*{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+body {
+  flex-direction: column;
+  background-color: orange;
+  width: 100%;
+}
+
+header{
+  background-color: red;
+  height: 7vh;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.nav{
+  height: 100%;
+  width: 80%;
+  align-items: center;
+
+}
+.logo {
+  font-size: 10px;
+  background-color: red;
+  height: 100%;
+  width: 15%;
+
+}
+
+
+.n1{
+  background-color: grey;
+  height: 100%;
+  width: 20%;
+  margin: 2%;
+}
+
+main{
+      height: 88vh;
+      width: 100%;
+
+      flex-flow: column;
+    }
+
+
+.medio  {
+  height: 50vh;
+  width: 100%;
+  background-color: green;
+}
+
+section{
+  background-color: blue;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 35vh;
+  width: 100%;
+  justify-content: center;
+
+}
+.grey1 {
+  background-color: grey;
+  margin-left: 5px;
+  height: 18%;
+  width: 40%;
+
+
+}
+
+footer {
+  background-color: green;
+  height: 15vh;
+  width: 100%;
+
+}
+
+@media  only screen and (max-width: 400px) {
+  .logo {
+    background-color: white;
+    }
+  .n1{
+    background-color: red;
+    }
+  section{
+    background-color: blue;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    height: 35vh;
+    width: 100%;
+    justify-content: center;
+    }
+  .grey1 {
+    background-color: darkred;
+    height: 10%;
+    margin: 2px;
+    width: 90%;
+    }
+  footer {
+    height: 15vh;
+    width: 100%;
+
+  }
+}
